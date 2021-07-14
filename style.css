@@ -1,1 +1,301 @@
- 
+
+/* Default css */
+*{
+    margin:0; padding:0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container{
+    width: 1050px;
+    height: 474px;
+    margin-top: 50px;
+}
+
+
+
+/*             Header Part           */
+.conmebol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-color:#2D25A0 ;
+}
+.conmebol-both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1143px;
+    height: 456;
+    margin-right: 20px;
+}
+.conmebol-details{
+    width: 485px;
+    height: 301px;
+}
+.conmebol-details h1{
+    width: 485px;
+    height:230px ;
+    font-size: 64px;
+    font-family: Poppins;
+    color: #FFFFFF;
+}
+.conmebol-button{
+    width: 166px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding-top: 10px;
+}
+.conmebol-image{
+
+}
+.conmebol img{
+    width:556px ;
+    height:438px ;
+}
+
+
+
+
+/*-----------------
+        Section part 
+    ---------------------*/
+
+
+   /*-----------------
+             Common css 
+     -----------------------*/
+
+     .player-box{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 330;
+         height: 470px;
+         padding: 15px;
+         margin-right:24px;
+         box-shadow: 5px 5px 40px rgb(201, 199, 199);
+     }
+
+     .nlc-boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .player-img{
+         width: 300px;
+         height: 256px;
+         opacity: .9;
+     }
+     .player-img:hover{
+         opacity: 1;
+         transform: scale(1.1);
+         transition:opacity .5s, transform .3s;
+     }
+     .player-name{
+         width: 300px;
+         height: 40px;
+         margin-top: 15px;
+         color: #18191F;
+         font-size: 28px;
+         line-height: 40px;
+         font-family: arial;
+         font-weight: 700;
+     }
+     .player-bio{
+         width: 300px;
+         height: 110px;
+         color: #6C6C6C;
+         font-size: 16px;
+         line-height: 26px;
+         margin-top: 10px;
+     }
+/* ----------common css end----------- */
+
+
+
+
+/*            copa hilight match             */
+
+.copa-hilight-match{
+    margin-top: 100px;
+}
+.copa-matches{
+    display: flex;
+    align-items:center;
+}
+.copa-details{
+    width: 466px;
+    height: 309;
+}
+.copa-details h1{
+    width: 466px;
+    height: 120px;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: poppins;
+    color:#0A0826 ;
+}
+.copa-details p{
+    width: 404px;
+    height: 113px;
+    color:#6C6C6C ;
+    line-height: 28px;
+    font-size: 16px;
+}
+.match-button{
+    margin-top: 30px;
+    width: 173px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+.fa-arrow-right{
+    width: 24px;
+    height: 24px;
+    color:#FFFFFF;
+}
+.match-image{
+    width:567px ;
+    height: 427 ;
+}
+
+
+/*---------------------------
+       Football Learning Video 
+   --------------------------------*/
+
+.learning-football{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 60px gray;
+    height: 430px;
+}
+.playing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learning-details{
+    margin-left: 40px;
+}
+.learning-details h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: arial;
+}
+.learning-details p{
+    margin-top: 30px;
+    color:#6C6C6C;
+    font-size: 18px;
+    line-height: 20px;
+}
+.kick{
+    width:550px ;
+    height: 400px ;
+    margin-left: 15px;
+}
+
+
+
+/*-------------------
+           Login Form 
+    ----------------------------*/
+    
+.login-field{
+    background-image: url(images/football-field.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.login-title{
+    font-size: 35px;
+    color: rgb(230, 230, 230);
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+.login-info{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 30px;
+}
+.headline{
+    font-size: 30px;
+    color:#fff;
+}
+.login-info input{
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.login-button{
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: arial;
+    border-radius: 5px;
+    background-image: linear-gradient(lightgreen,tomato);
+}
+
+
+
+
+/*-------------------------
+          Foooter Part 
+          --------------------------*/
+
+.footers{
+    width: 483px ;
+    height: 213px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 483px;
+    height: 110px;
+}
+.footer-social{
+    width: 170px;
+    height: 32px;
+}
+#social-icon{
+    width: 32px;
+    height: 32px;
+    color: gray;
+}
+.footer-copyright{
+    width: 236px;
+    height: 32px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+
+
+              /*--------------------------------- The End ---------------------------*/
